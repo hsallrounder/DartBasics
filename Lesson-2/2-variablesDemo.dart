@@ -3,9 +3,11 @@
 /* -------
 Multiline Comment
 ----------
-*/
+ */
 // ctrl + /  (Short-cut for making comment and uncomment)
-void main(){
+
+void main()
+{
   var x;  // The variable is loosely Typed (It contain different type of Data)
   x = "Pankaj";
   x = 30;
@@ -17,4 +19,9 @@ void main(){
   print(c);
   // Interpolation means (message as well data) concatenation of string + variable
   print("Result = $c");
+
+  var z = "some value"; // This time it becomes Strictly Typed
+  // z = 10;     // can't update the data with different type
 }
+
+
